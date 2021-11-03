@@ -1,5 +1,6 @@
 const SUPPORTED_LANGUAGES = ['el', 'en', 'es', 'it', 'pl']
 const selectedLanguage = process.argv[2]
+console.log(process.argv[1])
 
 if (!SUPPORTED_LANGUAGES.includes(selectedLanguage)) {
   console.error('The specified language is not supported')
